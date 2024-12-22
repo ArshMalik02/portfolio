@@ -25,8 +25,8 @@ code {
 .offset-anchor::before {
   content: "";
   display: block;
-  height: 5rem; /* Adjust the height as needed */
-  margin-top: -5rem; /* Same value as height */
+  height: 8rem; /* Adjust the height as needed */
+  margin-top: -8rem; /* Same value as height */
   visibility: hidden;
   pointer-events: none;
 }

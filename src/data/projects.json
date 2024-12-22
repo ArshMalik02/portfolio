@@ -1,0 +1,26 @@
+[
+  {
+    "dateRange": "2022 - PRESENT",
+    "title": "Undergraduate Quantum Computing Researcher",
+    "company": "Jens Palsberg Research Group",
+    "companyUrl": "https://web.cs.ucla.edu/~palsberg/",
+    "description": "Working on improving the performance of JavaScript engines through innovative optimization techniques.",
+    "skills": ["JavaScript", "Compiler Optimization", "Research"]
+  },
+  {
+    "dateRange": "SUMMER 2023",
+    "title": "Software Engineering Intern",
+    "company": "Google",
+    "companyUrl": "https://www.google.com",
+    "description": "Developed and optimized internal tools for improving developer productivity.",
+    "skills": ["Python", "Go", "Cloud Technologies"]
+  },
+  {
+    "dateRange": "2021 - 2022",
+    "title": "Web Development Lead",
+    "company": "ACM at UCLA",
+    "companyUrl": "https://www.uclaacm.com/",
+    "description": "Led a team in developing and maintaining the organization's website and web applications.",
+    "skills": ["React", "Node.js", "Project Management"]
+  }
+]
