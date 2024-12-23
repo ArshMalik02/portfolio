@@ -7,6 +7,10 @@ module.exports = {
         'playfair': ["Playfair Display", "serif"],
         'crimson': ["Crimson Text", "serif"],
       },
+      colors: {
+        'custom-green': '#FFF714',
+        'custom-bg': '#282c34'
+      },
     },
   },
   plugins: [],

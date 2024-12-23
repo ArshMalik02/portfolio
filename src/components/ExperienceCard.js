@@ -11,7 +11,7 @@ const ExperienceCard = ({
 }) => {
   const isProject = projectImage ? true : false;
   return (
-    <div className="grid grid-cols-4 gap-6 mb-6 bg-gray-200 p-4 rounded-lg">
+    <div className="grid grid-cols-4 gap-6 mb-6 p-4 rounded-lg">
       {/* Date Range Column */}
       <div
         className={`${
@@ -40,7 +40,7 @@ const ExperienceCard = ({
             {company && (
               <>
                 <span className="mx-2 text-gray-400">·</span>
-                <span className="text-teal-400 hover:text-teal-300">
+                <span className="text-custom-green hover:text-teal-300">
                   {companyUrl ? (
                     <a
                       href={companyUrl}
@@ -49,7 +49,7 @@ const ExperienceCard = ({
                       className="inline-flex items-center"
                     >
                       {company}
-                      <svg
+                      {/* <svg
                         className="w-4 h-4 ml-1"
                         fill="none"
                         stroke="currentColor"
@@ -62,7 +62,7 @@ const ExperienceCard = ({
                           strokeWidth={2}
                           d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
                         />
-                      </svg>
+                      </svg> */}
                     </a>
                   ) : (
                     company

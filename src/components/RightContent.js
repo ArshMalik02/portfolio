@@ -8,27 +8,43 @@ const RightContent = () => {
   return (
     <div className="text-left font-crimson mt-32 overflow-y-auto mr-32">
       <section id="about" className="offset-anchor">
-        <p className="">
-          Hi, I'm Arsh Malik. I'm a full-stack developer with a passion for
-          building beautiful and functional web applications. I have experience
-          working with JavaScript, React, Node.js, and more. I'm always looking
-          to learn new technologies and improve my skills. Hi, I'm Arsh Malik.
-          I'm a full-stack developer with a passion for building beautiful and
-          functional web applications. I have experience working with
-          JavaScript, React, Node.js, and more. I'm always looking to learn new
-          technologies and improve my skills. Hi, I'm Arsh Malik. I'm a
-          full-stack developer with a passion for building beautiful and
-          functional web applications. I have experience working with
-          JavaScript, React, Node.js, and more. I'm always looking to learn new
-          technologies and improve my skills. Hi, I'm Arsh Malik. I'm a
-          full-stack developer with a passion for building beautiful and
-          functional web applications. I have experience working with
-          JavaScript, React, Node.js, and more. I'm always looking to learn new
-          technologies and improve my skills. Hi, I'm Arsh Malik. I'm a
-          full-stack developer with a passion for building beautiful and
-          functional web applications. I have experience working with
-          JavaScript, React, Node.js, and more. I'm always looking to learn new
-          technologies and improve my skills.
+        <p>
+          Hey there! I'm Arsh, a senior at UCLA studying computer science with a
+          passion for quantum computing and software engineering. I'm currently
+          diving deep into quantum research at Dr. Jens Palsberg's Lab, where I
+          work on formally verifying quantum theorems. When I'm not in the lab,
+          you can find me building full-stack applications and working with data
+          to empower the open-source community at UCLA.
+        </p>
+        <br />
+        <p>
+          My journey in tech has been particularly exciting because it spans
+          such diverse industries. From optimizing flavor development at
+          Givaudan using machine learning, to empowering World Bank policymakers
+          with NLP-driven insights from economics and political science
+          journals, to building robust software solutions at Syncari – each role
+          has shown me the universal power of computer science. Working across
+          the flavors and fragrances, economic policy, and tech sectors has
+          taught me that while industries may differ, the fundamentals of
+          problem-solving through computer science remain constant. It's this
+          versatility that excites me – the ability to craft innovative
+          solutions for any challenge, regardless of the domain.
+        </p>
+        <br />
+        <p>
+          I'm also deeply involved in the UCLA tech community, having served as
+          Dev Team Director for ACM chapter and Engineering Manager at DevX.
+          To fulfill my desire to give back to this amazing community, I'm mentoring incoming
+          engineering students through MentorSEAS, UCLA Engineering's mentorship
+          program.
+        </p>
+        <br />
+        <p>
+          When I'm not coding or diving into quantum computing research, I enjoy
+          tennis, cricket, and following Formula One. I'm also a fan of live
+          plays and performances – because life isn't just about writing code,
+          right? Let's connect and chat about quantum computing, software
+          development, or maybe even share thoughts on why Ferrari is the best F1 constuctor!
         </p>
       </section>
       <section id="experience" className="offset-anchor mt-32">
@@ -44,37 +60,9 @@ const RightContent = () => {
             companyUrl={experience.companyUrl}
           />
         ))}
-        <p className="mt-5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
-          purus ut nunc ultricies aliquam. Nullam nec purus ut nunc ultricies
-          aliquam. Nullam nec purus ut nunc ultricies aliquam. Lorem ipsum dolor
-          sit amet, consectetur adipiscing elit. Nullam nec purus ut nunc
-          ultricies aliquam. Nullam nec purus ut nunc ultricies aliquam. Nullam
-          nec purus ut nunc ultricies aliquam. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Nullam nec purus ut nunc ultricies
-          aliquam. Nullam nec purus ut nunc ultricies aliquam. Nullam nec purus
-          ut nunc ultricies aliquam. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Nullam nec purus ut nunc ultricies aliquam. Nullam
-          nec purus ut nunc ultricies aliquam. Nullam nec purus ut nunc
-          ultricies aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit. Nullam nec purus ut nunc ultricies aliquam. Nullam nec purus ut
-          nunc ultricies aliquam. Nullam nec purus ut nunc ultricies aliquam.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
-          purus ut nunc ultricies aliquam. Nullam nec purus ut nunc ultricies
-          aliquam. Nullam nec purus ut nunc ultricies aliquam. Lorem ipsum dolor
-          sit amet, consectetur adipiscing elit. Nullam nec purus ut nunc
-          ultricies aliquam. Nullam nec purus ut nunc ultricies aliquam. Nullam
-          nec purus ut nunc ultricies aliquam. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Nullam nec purus ut nunc ultricies
-          aliquam. Nullam nec purus ut nunc ultricies aliquam. Nullam nec purus
-          ut nunc ultricies aliquam. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Nullam nec purus ut nunc ultricies aliquam. Nullam
-          nec purus ut nunc ultricies aliquam. Nullam nec purus ut nunc
-          ultricies aliquam.
-        </p>
       </section>
       <section id="projects" className="offset-anchor mt-32">
-      <h2 className="text-4xl font-crimson font-bold mb-10">Projects</h2>
+        <h2 className="text-4xl font-crimson font-bold mb-10">Projects</h2>
         {projectsData.map((project, index) => (
           <Card
             key={index}

@@ -1,49 +1,35 @@
 [
   {
+    "dateRange": "Jan 2024 — Present",
+    "title": "Undergraduate Researcher",
+    "company": "Palsberg's Lab, UCLA",
+    "companyUrl": "https://web.cs.ucla.edu/~palsberg/",
+    "description": "Verify quantum theorems using Coq for formal proof verification, successfully validating the paper \"Optimal Implementation of Quantum Gates with Two Controls\", enhancing the reliability of quantum computing research. Resolve technical issues with Coq code compilation, resulting in performance improvements and open-sourcing the project, hence increasing collaboration and knowledge sharing within the quantum computing community.",
+    "skills": ["Coq", "Quantum Computing", "Formal Verification"]
+  },
+  {
     "dateRange": "Jun 2024 — Present",
     "title": "Research Intern",
     "company": "Givaudan",
     "companyUrl": "https://www.givaudan.com/",
     "description": "Developed full-stack application to run on store kiosks using React.js, Express.js, PostgreSQL and patented aroma release software, enabling customers to explore and smell products, enhancing their buying decisions by 80%. Analyzed over 1,000 data points using K-means clustering and Principal Component Analysis (PCA) to identify key similarities in plant-based protein substitutes. Built an integrated visualization tool using React.js, enabling inference of meaningful relationships from data, empowering flavor creation and product innovation.",
-    "skills": [
-      "React.js",
-      "Express.js",
-      "PostgreSQL",
-      "Data Analysis",
-      "K-means",
-      "PCA"
-    ]
+    "skills": ["React.js", "Express.js", "PostgreSQL", "Unsupervised Learning"]
   },
   {
     "dateRange": "Jun 2024 — Present",
     "title": "Mentor",
     "company": "UCLA Engineering MentorSEAS",
-    "companyUrl": "https://mentorship.seas.ucla.edu/",
+    "companyUrl": "https://www.linkedin.com/company/mentorseas",
     "description": "Mentor group of 10 incoming Samueli Engineering students, helping navigate school and professional opportunities. Organize campus tours, introduce students to engineering clubs and share industry recruitment resources. Collaborate with other groups to conduct activities such as scavenger hunts to foster teamwork and networking.",
     "skills": ["Mentoring", "Leadership", "Event Planning"]
-  },
-  {
-    "dateRange": "Jan 2024 — Present",
-    "title": "Undergraduate Researcher",
-    "company": "Palsberg's Lab, UCLA",
-    "companyUrl": "https://web.cs.ucla.edu/~palsberg/",
-    "description": "Verified quantum theorems using Coq for formal proof verification, successfully validating the paper \"Optimal Implementation of Quantum Gates with Two Controls,\" enhancing the reliability of quantum computing research. Resolved technical issues with Coq code compilation, resulting in performance improvements and open-sourcing the project, which increased collaboration and knowledge sharing within the quantum computing community.",
-    "skills": ["Coq", "Quantum Computing", "Formal Verification"]
   },
   {
     "dateRange": "Apr 2023 — Mar 2024",
     "title": "Dev Team Director",
     "company": "Association for Computing Machinery (ACM), UCLA",
     "companyUrl": "https://www.uclaacm.com/",
-    "description": "Led a 15-member developer team building full-stack application for a 1500+ member club, managing projects with GitHub, reviewing pull requests, and guiding system design. Taught the ACM intern cohort of 100 students, introducing them to ACM's tech stack. Implemented Search Engine Optimization (SEO) and app user analysis for the ACM website.",
-    "skills": [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Node.js",
-      "Leadership",
-      "SEO"
-    ]
+    "description": "Led a 15-member developer team building software infrastructure for the largest tech community in Southern California, managing multiple projects, reviewing pull requests, and guiding system design. Trained the ACM intern cohort, introducing them to ACM's tech stack. Implemented Search Engine Optimization (SEO) and app user analysis for the ACM at UCLA website. Awarded The ACM Student Chapter Outstanding Website Award recognizing our efforts, standing out amongst 700 other chapters in the world.",
+    "skills": ["Next.js", "TypeScript", "Tailwind CSS", "Leadership", "SEO"]
   },
   {
     "dateRange": "Jun 2023 — Sep 2023",
@@ -51,21 +37,15 @@
     "company": "World Bank",
     "companyUrl": "https://www.worldbank.org/",
     "description": "Devised an 80% accurate n-grams model to classify over 5,000 articles using Python libraries such as scikit-learn, Pandas, and NumPy. Designed and implemented generative transformer models using PyTorch to provide automated summaries of political science and economics journal articles.",
-    "skills": ["Python", "scikit-learn", "Pandas", "NumPy", "PyTorch", "NLP"]
+    "skills": ["Python", "PyTorch", "Machine Learning", "NLP"]
   },
   {
     "dateRange": "Mar 2023 — Jun 2023",
     "title": "Engineering Manager",
     "company": "DevX, UCLA",
-    "companyUrl": "https://www.devxucla.com/",
+    "companyUrl": "https://www.ucladevx.com/",
     "description": "Managed a dedicated team of 10 developers, spearheading the development of a full-stack application using Next.js, TypeScript, and Firebase for a stealth startup. Introduced 'buddy programming' strategy and reviewed over 10,000 lines of code through pull requests.",
-    "skills": [
-      "Next.js",
-      "TypeScript",
-      "Firebase",
-      "Team Management",
-      "Code Review"
-    ]
+    "skills": ["Next.js", "TypeScript", "Firebase", "Team Management"]
   },
   {
     "dateRange": "Jun 2022 — Sep 2022",
