@@ -9,6 +9,7 @@ const ExperienceCard = ({
   companyUrl,
   projectImage,
 }) => {
+  console.log(projectImage);
   const isProject = projectImage ? true : false;
   return (
     <div className="grid grid-cols-4 gap-6 mb-6 p-4 rounded-lg">
@@ -24,7 +25,7 @@ const ExperienceCard = ({
           <img
             src={projectImage}
             alt={`${title} preview`}
-            className="w-full aspect-[4/3] object-cover rounded-lg"
+            className="w-full object-cover rounded-lg"
           />
         ) : (
           dateRange

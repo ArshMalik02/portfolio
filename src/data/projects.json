@@ -1,26 +1,54 @@
 [
   {
-    "dateRange": "2022 - PRESENT",
-    "title": "Undergraduate Quantum Computing Researcher",
-    "company": "Jens Palsberg Research Group",
-    "companyUrl": "https://web.cs.ucla.edu/~palsberg/",
-    "description": "Working on improving the performance of JavaScript engines through innovative optimization techniques.",
-    "skills": ["JavaScript", "Compiler Optimization", "Research"]
+    "title": "QuantumViz",
+    "company": "Personal Project",
+    "description": "An AI-powered quantum circuit generator that simplifies quantum computing design through natural language and 3D visualization. The project includes LaTeX and Python code export capabilities, a RAG plus Llama 3.1 Groq chatbot trained on research papers, and automated arXiv paper parsing. Received endorsements from quantum computing experts at UCLA, Google Quantum AI, and AWS.",
+    "skills": [
+      "Next.js",
+      "Qiskit",
+      "Python",
+      "Selenium",
+      "Scrapy",
+      "Groq",
+      "Llama",
+      "Natural Language Processing",
+      "3D Visualization"
+    ],
+    "companyUrl": "https://github.com/ArshMalik02/QuantumViz"
   },
   {
-    "dateRange": "SUMMER 2023",
-    "title": "Software Engineering Intern",
-    "company": "Google",
-    "companyUrl": "https://www.google.com",
-    "description": "Developed and optimized internal tools for improving developer productivity.",
-    "skills": ["Python", "Go", "Cloud Technologies"]
+    "title": "Toffoli Approximation",
+    "company": "Research Project",
+    "description": "Developed a quantum computing optimization project focusing on approximating the Toffoli gate using five 2-qubit gates. Achieved a minimum Hilbert-Schmidt distance of 0.3826834323650892 through 500 iterations of optimization.",
+    "skills": ["Qiskit", "QGOpt", "Quantum Computing", "Matrix Optimization"],
+    "companyUrl": "https://github.com/ArshMalik02/Toffoli-Approximation"
   },
   {
-    "dateRange": "2021 - 2022",
-    "title": "Web Development Lead",
+    "title": "Open Source at UCLA",
     "company": "ACM at UCLA",
-    "companyUrl": "https://www.uclaacm.com/",
-    "description": "Led a team in developing and maintaining the organization's website and web applications.",
-    "skills": ["React", "Node.js", "Project Management"]
+    "description": "Worked on an interactive web platform to foster open-source collaboration at UCLA, featuring project showcases, contribution guides, and real-time GitHub integration. The platform serves as a central hub where students can discover projects, learn about open-source best practices, and connect with project maintainers.",
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "GitHub CI/CD",
+      "Web Development"
+    ],
+    "companyUrl": "https://opensource.uclaacm.com/"
+  },
+  {
+    "title": "ClassBuddi",
+    "company": "Personal Project",
+    "description": "Engineered a full-stack application to help UCLA students connect with like-minded classmates in 20+ CS courses. The application streamlines the often challenging process of finding compatible study partners in large CS courses, making collaborative learning more accessible and efficient for UCLA's computer science community.",
+    "skills": [
+      "React.js",
+      "Firebase",
+      "Figma",
+      "Tailwind CSS",
+      "Git",
+      "REST API",
+      "Full Stack Development"
+    ],
+    "companyUrl": "https://github.com/ArshMalik02/classbuddi"
   }
 ]

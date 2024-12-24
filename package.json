@@ -1,7 +1,12 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
+  "name": "arsh-malik-portfolio",
+  "version": "1.0.0",
   "private": true,
+  "homepage": "https://arshmalik02.com",
+  "author": {
+    "name" : "Arsh Malik",
+    "email" : "arshmalik02@gmail.com"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",

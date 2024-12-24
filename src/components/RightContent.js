@@ -4,6 +4,20 @@ import Card from "./ExperienceCard";
 import experienceData from "../data/experience.json";
 import projectsData from "../data/projects.json";
 
+// import QuantumViz from "../img/QuantumViz.png";
+// Use require.context to import all images from the projects directory
+const importAll = (r) => {
+  let images = {};
+  r.keys().forEach((item) => {
+    const key = item.replace('./','').split('.')[0];  // Remove './' and file extension
+    images[key] = r(item);
+  });
+  return images;
+};
+
+// Import all images from the projects directory
+const projectImages = importAll(require.context('../images/projects', false, /\.(png|jpe?g|svg)$/));
+
 const RightContent = () => {
   return (
     <div className="text-left font-crimson mt-32 overflow-y-auto mr-32">
@@ -66,19 +80,16 @@ const RightContent = () => {
         {projectsData.map((project, index) => (
           <Card
             key={index}
-            dateRange={project.dateRange}
             title={project.title}
             company={project.company}
             description={project.description}
             skills={project.skills}
             companyUrl={project.companyUrl}
+            projectImage={projectImages[project.title]}
           />
         ))}
       </section>
-      <section id="contact" className="offset-anchor mt-32">
-        <p className="mt-20">Get in touch with me:</p>
-        <p className="mt-5">Email: arshmalik02@gmail.com</p>
-      </section>
+      {/* <img src={QuantumViz} alt="QuantumViz" /> */}
     </div>
   );
 };
