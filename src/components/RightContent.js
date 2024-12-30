@@ -20,7 +20,7 @@ const projectImages = importAll(require.context('../images/projects', false, /\.
 
 const RightContent = () => {
   return (
-    <div className="text-left font-crimson mt-32 overflow-y-auto mr-32">
+    <div className="text-left font-crimson ml-12 mr-12 mt-10 md:mt-32 overflow-y-auto md:mr-32">
       <section id="about" className="offset-anchor">
         <p>
           Hey there! I'm Arsh, a senior at UCLA studying computer science with a

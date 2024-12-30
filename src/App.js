@@ -9,8 +9,11 @@ function App() {
 
   return (
     <div className="App">
+      {/* <div className="bg-custom-green h-1 w-full fixed top-0 z-50">
+
+      </div> */}
       <LeftPanel />
-      <div className="w-1/2 ml-auto">
+      <div className="md:w-1/2 ml-auto">
         <RightContent />
       </div>
     </div>

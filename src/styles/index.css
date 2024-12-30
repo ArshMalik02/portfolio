@@ -32,3 +32,14 @@ code {
   visibility: hidden;
   pointer-events: none;
 }
+
+@media (max-width: 768px) {
+  .offset-anchor::before {
+    content: "";
+    display: block;
+    height: 6rem; /* Adjust the height as needed */
+    margin-top: -6rem; /* Same value as height */
+    visibility: hidden;
+    pointer-events: none;
+  }
+}

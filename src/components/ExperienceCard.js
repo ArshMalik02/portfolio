@@ -12,13 +12,13 @@ const ExperienceCard = ({
   console.log(projectImage);
   const isProject = projectImage ? true : false;
   return (
-    <div className="grid grid-cols-4 gap-6 mb-6 p-4 rounded-lg">
+    <div className="md:grid md:grid-cols-4 gap-6 mb-6 p-4 rounded-lg">
       {/* Date Range Column */}
       <div
         className={`${
           isProject
-            ? "relative rounded-lg overflow-hidden"
-            : "text-gray-400 text-sm"
+            ? "relative rounded-lg overflow-hidden mb-4"
+            : "text-gray-400 text-sm mb-2"
         }`}
       >
         {isProject ? (
@@ -50,20 +50,6 @@ const ExperienceCard = ({
                       className="inline-flex items-center"
                     >
                       {company}
-                      {/* <svg
-                        className="w-4 h-4 ml-1"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                        />
-                      </svg> */}
                     </a>
                   ) : (
                     company
