@@ -7,6 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import useActiveSection from "../hooks/useActiveSection";
+import headshot from "../images/headshot.png";
 
 const LeftPanel = () => {
   const sectionIds = ["about", "experience", "projects"];
@@ -58,13 +59,21 @@ const LeftPanel = () => {
       </nav>
       <div className="font-crimson md:w-1/2 md:h-screen flex flex-col md:fixed top-0">
         <div className="text-left ml-12 mr-12 md:ml-32">
-          <h1 className="font-crimson font-bold mt-20 md:mt-32 text-5xl md:text-6xl">
+          {/* Headshot */}
+          <div className="w-40 h-40">
+            <img
+              src={headshot}
+              alt="Arsh Malik"
+              className="rounded-full w-full h-full object-cover mt-20 md:mt-32 border-4 border-custom-green shadow-lg"
+            />
+          </div>
+          <h1 className="font-crimson font-bold mt-6 text-5xl md:text-6xl">
             Arsh Malik
           </h1>
-          <p className="mt-5 text-lg">
+          <p className="mt-2 text-lg">
             Trying to push the cutting edge, qubit by qubit
           </p>
-          <nav className={`mt-20 md:block hidden md:space-y-4`}>
+          <nav className={`mt-10 md:block hidden md:space-y-4`}>
             <ul>
               {sectionIds.map((section) => (
                 <li key={section} className="mb-4">
@@ -85,7 +94,7 @@ const LeftPanel = () => {
               ))}
             </ul>
           </nav>
-          <div className="flex mt-32 space-x-4 hidden md:block">
+          <div className="flex mt-16 space-x-4 hidden md:block">
             <a
               href="https://github.com/ArshMalik02"
               target="_blank"
