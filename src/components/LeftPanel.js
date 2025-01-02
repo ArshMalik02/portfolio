@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import useActiveSection from "../hooks/useActiveSection";
-import headshot from "../images/headshot.png";
+import headshot from "../images/headshot_compressed.png";
 
 const LeftPanel = () => {
   const sectionIds = ["about", "experience", "projects"];
