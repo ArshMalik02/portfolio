@@ -24,11 +24,7 @@ const RightContent = () => {
       <section id="about" className="offset-anchor">
         <p>
           Hey there! I'm Arsh, a senior at UCLA studying computer science with a
-          passion for quantum computing and software engineering. I'm currently
-          diving deep into quantum research at Dr. Jens Palsberg's Lab, where I
-          work on formally verifying quantum theorems. When I'm not in the lab,
-          you can find me building full-stack applications and working with data
-          to empower the open-source community at UCLA.
+          passion for software engineering, machine learning and quantum computing.
         </p>
         <br />
         <p>
@@ -59,6 +55,7 @@ const RightContent = () => {
           plays and performances – because life isn't just about writing code,
           right? Let's connect and chat about quantum computing, software
           development, or maybe even share thoughts on why Ferrari is the best F1 constuctor!
+          Feel free to reach out to me via email at &#123;arshmalik02&#125; at &#123;ucla&#125; dot &#123;edu&#125;. 
         </p>
       </section>
       <section id="experience" className="offset-anchor mt-32">
@@ -89,7 +86,6 @@ const RightContent = () => {
           />
         ))}
       </section>
-      {/* <img src={QuantumViz} alt="QuantumViz" /> */}
     </div>
   );
 };
