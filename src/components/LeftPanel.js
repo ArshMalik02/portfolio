@@ -64,7 +64,7 @@ const LeftPanel = () => {
             <img
               src={headshot}
               alt="Arsh Malik"
-              className="rounded-full w-full h-full object-cover mt-20 md:mt-24 border-4 border-custom-green shadow-lg"
+              className="rounded-full w-full h-full object-cover mt-20 md:mt-20 border-4 border-custom-green shadow-lg"
             />
           </div>
           <h1 className="font-crimson font-bold mt-6 text-5xl md:text-6xl">
@@ -121,7 +121,7 @@ const LeftPanel = () => {
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
           </div>
-          <footer className="flex mt-16 space-x-4 hidden md:block">
+          <footer className="flex mt-8 space-x-4 hidden md:block">
             <p className="text-gray-400 text-sm">
               &copy; Arsh Malik 2025. All rights reserved.
             </p>
