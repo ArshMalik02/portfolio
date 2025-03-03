@@ -64,14 +64,14 @@ const LeftPanel = () => {
             <img
               src={headshot}
               alt="Arsh Malik"
-              className="rounded-full w-full h-full object-cover mt-20 md:mt-32 border-4 border-custom-green shadow-lg"
+              className="rounded-full w-full h-full object-cover mt-20 md:mt-24 border-4 border-custom-green shadow-lg"
             />
           </div>
           <h1 className="font-crimson font-bold mt-6 text-5xl md:text-6xl">
             Arsh Malik
           </h1>
-          <p className="mt-2 text-lg">
-            Trying to push the cutting edge, qubit by qubit
+          <p className="mt-2 text-lg w-3/4">
+          “Try to learn something about everything and everything about something.” – Thomas Huxley
           </p>
           <nav className={`mt-10 md:block hidden md:space-y-4`}>
             <ul>
@@ -117,10 +117,15 @@ const LeftPanel = () => {
               <FontAwesomeIcon icon={faInstagram} className="text-2xl" />
             </a>
             {/* mailto */}
-            <a href="mailto:arshmalik02@gmail.com" className="text-2xl">
+            <a href="mailto:arshmalik02@g.ucla.edu" className="text-2xl">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
           </div>
+          <footer className="flex mt-16 space-x-4 hidden md:block">
+            <p className="text-gray-400 text-sm">
+              &copy; Arsh Malik 2025. All rights reserved.
+            </p>
+          </footer>
         </div>
       </div>
     </div>
