@@ -2,44 +2,195 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bg: #fbfbfa;
+  --text: #2b3038;
+  --strong: #0e1116;
+  --dim: #6b7280;
+  --rule: #e2e4e8;
+  --accent: #0e8a7b;
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  color-scheme: light;
+}
+:root[data-theme="dark"] {
+  --bg: #0e1116;
+  --text: #d6dbe2;
+  --strong: #f2f4f7;
+  --dim: #848e9a;
+  --rule: #252b34;
+  --accent: #5ed6c4;
+  color-scheme: dark;
+}
+
 html {
-  scroll-behavior: smooth !important;
+  background: var(--bg);
+  -webkit-text-size-adjust: 100%;
+  transition: background 0.2s;
 }
-
 body {
-  margin: 0;
-  height: 100vh;
-  width: 100vw;
-  background-color: #011627;
-  color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  color: var(--text);
+  font: 400 16px/1.65 var(--sans);
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 80px 24px 64px;
+  transition: color 0.2s;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  transition: border-color 0.2s, color 0.2s;
 }
-
-.offset-anchor::before {
-  content: "";
+a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+.photo {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
   display: block;
-  height: 8rem; /* Adjust the height as needed */
-  margin-top: -8rem; /* Same value as height */
-  visibility: hidden;
-  pointer-events: none;
+  margin-bottom: 20px;
+  background: var(--rule);
+}
+h1 {
+  font: 600 28px/1.2 var(--sans);
+  color: var(--strong);
+  letter-spacing: -0.01em;
+}
+.tag {
+  margin-top: 12px;
+}
+.tag em {
+  font-style: normal;
+  color: var(--accent);
+}
+.links {
+  margin-top: 20px;
+  font: 400 13px/1.6 var(--mono);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+}
+.links a {
+  border: 0;
+  color: var(--dim);
+}
+.links a:hover {
+  color: var(--accent);
+}
+section {
+  margin-top: 64px;
+}
+h2 {
+  font: 400 13px/1 var(--mono);
+  color: var(--accent);
+  margin-bottom: 20px;
+}
+h2::before {
+  content: "// ";
+  color: var(--dim);
+}
+.item + .item {
+  margin-top: 22px;
+}
+.head {
+  color: var(--strong);
+  font-weight: 500;
+}
+.meta {
+  color: var(--dim);
+  font-weight: 400;
+}
+.item p {
+  margin-top: 2px;
+}
+.earlier {
+  margin-top: 28px;
+  color: var(--dim);
+}
+.earlier b {
+  color: var(--text);
+  font-weight: 500;
+}
+.arrow {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  color: var(--dim);
+  margin-left: 2px;
+}
+footer {
+  margin-top: 80px;
+  padding-top: 20px;
+  border-top: 1px solid var(--rule);
+  font: 400 13px/1 var(--mono);
+  color: var(--dim);
 }
 
-@media (max-width: 768px) {
-  .offset-anchor::before {
-    content: "";
+.theme-toggle {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+}
+.theme-toggle button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: var(--dim);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.theme-toggle button:hover {
+  color: var(--accent);
+}
+.theme-toggle button[aria-pressed="true"] {
+  background: var(--rule);
+  color: var(--strong);
+}
+.theme-toggle svg {
+  width: 18px;
+  height: 18px;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding-top: 56px;
+    font-size: 15.5px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  section {
+    margin-top: 52px;
+  }
+  .head .meta {
     display: block;
-    height: 6rem; /* Adjust the height as needed */
-    margin-top: -6rem; /* Same value as height */
-    visibility: hidden;
-    pointer-events: none;
+    font-size: 14px;
+  }
+  .head .dot {
+    display: none;
+  }
+  .theme-toggle {
+    top: 16px;
+    right: 16px;
   }
 }

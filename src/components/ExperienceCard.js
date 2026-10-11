@@ -1,84 +1,22 @@
-import React from "react";
-
-const ExperienceCard = ({
-  dateRange,
-  title,
-  company,
-  description,
-  skills = [],
-  companyUrl,
-  projectImage,
-}) => {
-  console.log(projectImage);
-  const isProject = projectImage ? true : false;
+export default function ExperienceCard({ job }) {
   return (
-    <div className="md:grid md:grid-cols-4 gap-6 mb-6 p-4 rounded-lg">
-      {/* Date Range Column */}
-      <div
-        className={`${
-          isProject
-            ? "relative rounded-lg overflow-hidden mb-4"
-            : "text-gray-400 text-sm mb-2"
-        }`}
-      >
-        {isProject ? (
-          <img
-            src={projectImage}
-            alt={`${title} preview`}
-            className="w-full object-cover rounded-lg"
-          />
-        ) : (
-          dateRange
-        )}
+    <div className="item">
+      <div className="head">
+        {job.name}{" "}
+        <span className="meta">
+          <span className="dot">· </span>
+          {job.role} · {job.years}
+        </span>
       </div>
-
-      {/* Content Column */}
-      <div className="col-span-3">
-        {/* Title & Company Section */}
-        <div className="mb-4">
-          <h3 className="text-xl">
-            {title}
-            {company && (
-              <>
-                <span className="mx-2 text-gray-400">·</span>
-                <span className="text-custom-green hover:text-teal-300">
-                  {companyUrl ? (
-                    <a
-                      href={companyUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center"
-                    >
-                      {company}
-                    </a>
-                  ) : (
-                    company
-                  )}
-                </span>
-              </>
-            )}
-          </h3>
-        </div>
-
-        {/* Description */}
-        <div className="mb-4 text-gray-400">{description}</div>
-
-        {/* Skills */}
-        {skills.length > 0 && (
-          <div className="flex flex-wrap gap-2">
-            {skills.map((skill, index) => (
-              <span
-                key={index}
-                className="px-3 py-1.5 text-xs rounded-full bg-gray-800 text-gray-300"
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
+      <p>
+        {job.description}
+        {job.link && (
+          <>
+            <a href={job.link.url}>{job.link.text}</a>
+            <span className="arrow">↗</span>
+          </>
         )}
-      </div>
+      </p>
     </div>
   );
-};
-
-export default ExperienceCard;
+}

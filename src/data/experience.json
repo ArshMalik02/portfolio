@@ -1,58 +1,27 @@
-[
-  {
-    "dateRange": "Jan 2024 — Present",
-    "title": "Undergraduate Researcher",
-    "company": "Palsberg's Lab, UCLA",
-    "companyUrl": "https://web.cs.ucla.edu/~palsberg/",
-    "description": "Verify quantum theorems using Coq for formal proof verification, successfully validating the paper \"Optimal Implementation of Quantum Gates with Two Controls\", enhancing the reliability of quantum computing research. Resolve technical issues with Coq code compilation, resulting in performance improvements and open-sourcing the project, hence increasing collaboration and knowledge sharing within the quantum computing community.",
-    "skills": ["Coq", "Quantum Computing", "Formal Verification"]
-  },
-  {
-    "dateRange": "Jun 2024 — Present",
-    "title": "Research Intern",
-    "company": "Givaudan",
-    "companyUrl": "https://www.givaudan.com/",
-    "description": "Developed full-stack application to run on store kiosks using React.js, Express.js, PostgreSQL and patented aroma release software, enabling customers to explore and smell products, enhancing their buying decisions by 80%. Analyzed over 1,000 data points using K-means clustering and Principal Component Analysis (PCA) to identify key similarities in plant-based protein substitutes. Built an integrated visualization tool using React.js, enabling inference of meaningful relationships from data, empowering flavor creation and product innovation.",
-    "skills": ["React.js", "Express.js", "PostgreSQL", "Unsupervised Learning"]
-  },
-  {
-    "dateRange": "Jun 2024 — Present",
-    "title": "Mentor",
-    "company": "UCLA Engineering MentorSEAS",
-    "companyUrl": "https://www.linkedin.com/company/mentorseas",
-    "description": "Mentor group of 10 incoming Samueli Engineering students, helping navigate school and professional opportunities. Organize campus tours, introduce students to engineering clubs and share industry recruitment resources. Collaborate with other groups to conduct activities such as scavenger hunts to foster teamwork and networking.",
-    "skills": ["Mentoring", "Leadership", "Event Planning"]
-  },
-  {
-    "dateRange": "Apr 2023 — Mar 2024",
-    "title": "Dev Team Director",
-    "company": "Association for Computing Machinery (ACM), UCLA",
-    "companyUrl": "https://www.uclaacm.com/",
-    "description": "Led a 15-member developer team building software infrastructure for the largest tech community in Southern California, managing multiple projects, reviewing pull requests, and guiding system design. Trained the ACM intern cohort, introducing them to ACM's tech stack. Implemented Search Engine Optimization (SEO) and app user analysis for the ACM at UCLA website. Awarded The ACM Student Chapter Outstanding Website Award recognizing our efforts, standing out amongst 700 other chapters in the world.",
-    "skills": ["Next.js", "TypeScript", "Tailwind CSS", "Leadership", "SEO"]
-  },
-  {
-    "dateRange": "Jun 2023 — Sep 2023",
-    "title": "Research Intern",
-    "company": "World Bank",
-    "companyUrl": "https://www.worldbank.org/",
-    "description": "Devised an 80% accurate n-grams model to classify over 5,000 articles using Python libraries such as scikit-learn, Pandas, and NumPy. Designed and implemented generative transformer models using PyTorch to provide automated summaries of political science and economics journal articles.",
-    "skills": ["Python", "PyTorch", "Machine Learning", "NLP"]
-  },
-  {
-    "dateRange": "Mar 2023 — Jun 2023",
-    "title": "Engineering Manager",
-    "company": "DevX, UCLA",
-    "companyUrl": "https://www.ucladevx.com/",
-    "description": "Managed a dedicated team of 10 developers, spearheading the development of a full-stack application using Next.js, TypeScript, and Firebase for a stealth startup. Introduced 'buddy programming' strategy and reviewed over 10,000 lines of code through pull requests.",
-    "skills": ["Next.js", "TypeScript", "Firebase", "Team Management"]
-  },
-  {
-    "dateRange": "Jun 2022 — Sep 2022",
-    "title": "Software Engineer Intern",
-    "company": "Syncari",
-    "companyUrl": "https://syncari.com/",
-    "description": "Engineered a program using Java, Spring Boot and MongoDB running as a CRON job to de-provision resources after the end of a 30-day trial subscription. Improved application quality and performance by optimizing SQL queries and implementing caching in Java.",
-    "skills": ["Java", "Spring Boot", "MongoDB", "SQL", "Caching"]
-  }
-]
+{
+  "jobs": [
+    {
+      "name": "siemens eda",
+      "role": "software engineer",
+      "years": "2025–now",
+      "description": "distributed C++/Python systems for resource allocation and observability under large-scale EDA compute"
+    },
+    {
+      "name": "blocq",
+      "role": "quantum algorithms research intern",
+      "years": "2025",
+      "description": "quantum arithmetic circuits in qiskit as building blocks toward an implementation of shor's algorithm"
+    },
+    {
+      "name": "palsberg lab, ucla",
+      "role": "undergraduate researcher",
+      "years": "2024–25",
+      "description": "formal verification in coq of ",
+      "link": {
+        "text": "\"optimal implementation of quantum gates with two controls\"",
+        "url": "https://github.com/kylechui/2ControlVerification"
+      }
+    }
+  ],
+  "earlier": "givaudan, world bank, syncari. led engineering teams at acm at ucla (dev team director) and devx."
+}
